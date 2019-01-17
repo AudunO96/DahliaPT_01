@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "DahliaPT Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win32",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"Win64",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPT HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPT HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPT",
+				"HTML5",
+				"Test",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPTEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPTEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DahliaPTEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "DahliaPTEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DahliaPTEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		}
+	]
+}

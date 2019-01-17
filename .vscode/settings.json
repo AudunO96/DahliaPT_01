@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"C:/Users/audis/Documents/Unreal Projects/DahliaPT/.git": true,
+		"C:/Users/audis/Documents/Unreal Projects/DahliaPT/.vs": true,
+		"C:/Users/audis/Documents/Unreal Projects/DahliaPT/.vscode": true,
+		"C:/Users/audis/Documents/Unreal Projects/DahliaPT/Content": true,
+		"C:/Users/audis/Documents/Unreal Projects/DahliaPT/Intermediate": true,
+		"C:/Users/audis/Documents/Unreal Projects/DahliaPT/Saved": true
+	}
+}

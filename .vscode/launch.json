@@ -1,0 +1,130 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "DahliaPT (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPT Win64 Debug Build",
+			"program": "C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\Binaries\\Win64\\DahliaPT-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DahliaPT (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPT Win64 DebugGame Build",
+			"program": "C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\Binaries\\Win64\\DahliaPT-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DahliaPT (Development)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPT Win64 Development Build",
+			"program": "C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\Binaries\\Win64\\DahliaPT.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DahliaPT (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPT Win64 Shipping Build",
+			"program": "C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\Binaries\\Win64\\DahliaPT-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DahliaPT (Test)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPT Win64 Test Build",
+			"program": "C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\Binaries\\Win64\\DahliaPT-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DahliaPTEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPTEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DahliaPTEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPTEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "DahliaPTEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "DahliaPTEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\audis\\Documents\\Unreal Projects\\DahliaPT\\DahliaPT.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+		}
+	]
+}
